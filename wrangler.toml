@@ -1,0 +1,12 @@
+name = "notion-template-worker"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
+compatibility_date = "2023-11-20"
+
+[site]
+bucket = "./"
+entry-point = "."
+
+[build]
+upload.format = "service-worker"
